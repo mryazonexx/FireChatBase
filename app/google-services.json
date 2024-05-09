@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370282863417",
+    "project_id": "firechatbase-5592f",
+    "storage_bucket": "firechatbase-5592f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370282863417:android:40de95ad3cfb25580066e8",
+        "android_client_info": {
+          "package_name": "com.mryazonexx.firechatbase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlv5QSFgdeX8C_ZyF3oWNRrL2EaHR1DNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
