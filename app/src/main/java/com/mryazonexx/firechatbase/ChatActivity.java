@@ -191,7 +191,7 @@ public class ChatActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
-                .header("Authorization", "Bearer AAAAVjaUGzk:APA91bHRDVILEUwqFgLJedaxKwe1w9nAgtyJil4zE1iILlUxxTJZzgDUHQ3B8H_LTSgBv0GiPTurO6ZH9u11N1c5ZcXPMa0n4bh7VNQ2yXJvSBopZ3X1tjzk2iP9oMNdzKXXetPx71e7")
+                .header("Authorization", "Bearer --firebasekey")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
