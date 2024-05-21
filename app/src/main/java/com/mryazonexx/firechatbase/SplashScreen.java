@@ -20,6 +20,7 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         if (getIntent().getExtras() != null) {
+            //from notification
             String userId = getIntent().getExtras().getString("userId");
             FirebaseUtil.allUserCollectionReference().document(userId).get()
                     .addOnCompleteListener(task -> {

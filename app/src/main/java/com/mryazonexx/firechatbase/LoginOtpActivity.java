@@ -115,6 +115,7 @@ public class LoginOtpActivity extends AppCompatActivity {
     }
 
     void signIn(PhoneAuthCredential phoneAuthCredential) {
+        //login and go to next activity
         setInProgress(true);
         mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
